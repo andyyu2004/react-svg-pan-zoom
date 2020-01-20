@@ -354,9 +354,10 @@ function (_React$Component) {
       if (tool === _constants.TOOL_PAN) cursor = (0, _cursorPolyfill.default)(value.mode === _constants.MODE_PANNING ? 'grabbing' : 'grab');
       if (tool === _constants.TOOL_ZOOM_IN) cursor = (0, _cursorPolyfill.default)('zoom-in');
       if (tool === _constants.TOOL_ZOOM_OUT) cursor = (0, _cursorPolyfill.default)('zoom-out');
-      if (panningWithToolAuto) cursor = (0, _cursorPolyfill.default)('grabbing');
-      var blockChildEvents = [_constants.TOOL_PAN, _constants.TOOL_ZOOM_IN, _constants.TOOL_ZOOM_OUT].indexOf(tool) >= 0;
-      blockChildEvents = blockChildEvents || panningWithToolAuto;
+      if (panningWithToolAuto) cursor = (0, _cursorPolyfill.default)('grabbing'); // let blockChildEvents = [TOOL_PAN, TOOL_ZOOM_IN, TOOL_ZOOM_OUT].indexOf(tool) >= 0;
+      // blockChildEvents = blockChildEvents || panningWithToolAuto;
+
+      var blockChildEvents = false;
       var touchAction = this.props.detectPinchGesture || [_constants.TOOL_PAN, _constants.TOOL_AUTO].indexOf(this.getTool()) !== -1 ? 'none' : undefined;
       var style = {
         display: 'block',
