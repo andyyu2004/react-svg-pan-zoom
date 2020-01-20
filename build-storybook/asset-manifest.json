@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/react-svg-pan-zoom/main.fef77170f88f9e2dc4a6.bundle.js",
+    "main.js.map": "/react-svg-pan-zoom/main.fef77170f88f9e2dc4a6.bundle.js.map",
+    "runtime~main.js": "/react-svg-pan-zoom/runtime~main.fef77170f88f9e2dc4a6.bundle.js",
+    "runtime~main.js.map": "/react-svg-pan-zoom/runtime~main.fef77170f88f9e2dc4a6.bundle.js.map",
+    "vendors~main.js": "/react-svg-pan-zoom/vendors~main.fef77170f88f9e2dc4a6.bundle.js",
+    "vendors~main.js.map": "/react-svg-pan-zoom/vendors~main.fef77170f88f9e2dc4a6.bundle.js.map",
+    "iframe.html": "/react-svg-pan-zoom/iframe.html",
+    "precache-manifest.9ee424e1fb866c0ce1a0fe2845edc278.js": "/react-svg-pan-zoom/precache-manifest.9ee424e1fb866c0ce1a0fe2845edc278.js",
+    "service-worker.js": "/react-svg-pan-zoom/service-worker.js"
+  },
+  "entrypoints": [
+    "runtime~main.fef77170f88f9e2dc4a6.bundle.js",
+    "vendors~main.fef77170f88f9e2dc4a6.bundle.js",
+    "main.fef77170f88f9e2dc4a6.bundle.js"
+  ]
+}
